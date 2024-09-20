@@ -17,9 +17,11 @@
    margin: 0 1.5rem;
    height: 2.1875rem;
    width: 18.75rem;
-   border-radius: 1.875rem;
+   border-radius: 1.6rem;
    border: 1px solid rgb(197, 243, 197);
    background-color : rgb(197, 243, 197);
+   box-sizing: border-box;
+   padding: 7px;
 }
 .b{
     text-align: center;
@@ -31,19 +33,19 @@
     text-decoration: underline;
 }
 .im{
-    width: 2rem;
+    width: 1.5rem;
     height: 1.4375rem;
 }
 .im1{
-    height: 1.4375rem;
-    width: 2.5rem;
+    height: 1.3rem;
+    width: 2rem;
 }
 .n{
-    font-size: 1.125rem;
+    font-size: 0.7rem;
 }
 .pro{
     text-align: center;
-    margin-left: 5.625rem;
+    margin-left: 16.2rem;
 }
 .pro:hover{
     cursor: pointer;
@@ -140,8 +142,16 @@
     align-items: center;
 }
 .ho1{
-    width: 3.125rem;
-    height: 1.875rem;
+    width: 3.5rem;
+    height: 2.3rem;
+    margin-bottom: 0.5rem;
+}
+.link1{
+    text-decoration: underline;
+}
+.link1:hover{
+    cursor: pointer;
+    color: rgb(68, 185, 231);
 }
 .year,.mumbai{
     margin: 0;
@@ -168,9 +178,11 @@
     margin: 0.3125rem;
 }
 .img9{
-    height: 1.25rem;
-    width: 1.25rem;
-   
+    height: 1.35rem;
+    width: 1.35rem;
+    position: relative;
+    top: 0.2rem;
+    left: 2px;
     margin-right: 0.625rem;
 }
 .pjq{
@@ -214,6 +226,9 @@ background-color: white;
     margin-left: 1.25rem;
     margin-right: 0.5rem;
     text-align: left;
+}
+.bb1{
+    text-align: center;
 }
 .plus{
    height: 1.5625rem;

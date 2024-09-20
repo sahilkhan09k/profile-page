@@ -88,7 +88,7 @@ const First = () => {
                     <div className="pjq">
                     <h3 className="project">Project Gallery</h3>
                     <div className="bb1">
-                     <a href="" className="link1">Link GitHub</a>
+                    <span className="link1">Link GitHub</span>
                     <img className="img9" src={img13}></img>
                     </div>
                     </div>
