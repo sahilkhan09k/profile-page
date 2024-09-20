@@ -16,7 +16,7 @@
 .search{
    margin: 0 1.5rem;
    height: 2.1875rem;
-   width: 18.75rem;
+   width: 16rem;
    border-radius: 1.6rem;
    border: 1px solid rgb(197, 243, 197);
    background-color : rgb(197, 243, 197);
@@ -33,26 +33,26 @@
     text-decoration: underline;
 }
 .im{
-    width: 1.5rem;
-    height: 1.4375rem;
+    width: 1.2rem;
+    height: 1.3rem;
 }
 .im1{
-    height: 1.3rem;
-    width: 2rem;
+    height: 1.2rem;
+    width: 1.8rem;
 }
 .n{
-    font-size: 0.7rem;
+    font-size: 0.55rem;
 }
 .pro{
     text-align: center;
-    margin-left: 16.2rem;
+    margin-left: 23rem;
 }
 .pro:hover{
     cursor: pointer;
 }
 .c1{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 2rem;
     border: 1px solid gray;
     border-radius: 50%;
     background-color: rgb(192, 191, 191);
