@@ -13,6 +13,11 @@ import img10 from './images/img10.jpeg'
 import img11 from './images/img11.jpeg'
 import img12 from './images/img12.jpeg'
 import img13 from './images/img13.jpeg'
+import img14 from './images/img14.jpeg'
+import img15 from './images/img15.jpeg'
+import img16 from './images/img16.jpeg'
+import img17 from './images/img17.jpeg'
+import img18 from './images/img18.jpeg'
 
 
 
@@ -142,8 +147,69 @@ const First = () => {
                 </div>
                 <div className="plus">+</div>
                 </div>
+                <button className="show">Show More</button>
             </div>
          </main>
+         <div className="boxx5">
+            <div className="insight">
+            <h2>Insights</h2>
+            </div>
+                <div className="mboxx">
+                <div className="eye">
+                    <img src={img14} alt="eye" className="eee"></img>
+                    <div className="sb1">
+                        <div className="pv">Profile Views</div>
+                        <div className="desc1">Discover your reach</div>
+                    </div>
+                </div>
+                <div className="eye">
+                    <img src={img15} alt="eye" className="eee"></img>
+                    <div className="sb1">
+                        <div className="pv">Market Trends</div>
+                        <div className="desc1">Whats going on</div>
+                    </div>
+                </div>
+                <div className="eye">
+                    <img src={img16} alt="eye" className="eee"></img>
+                    <div className="sb1">
+                        <div className="pv">Account Analysis</div>
+                        <div className="desc1">Check your growth</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div className="boxx6">
+                <h3 className="abt">About</h3>
+                <div className="abtt">Anything you want to write about yourself.....</div>
+            </div>
+            <div className="boxx7">
+                <h3 className="act">Activity</h3>
+                <div className="act1">
+                    <img src={img17} alt="project" className="img17"></img>
+                    <div className="act11">
+                        <div className="ran">Add your random text here.</div>
+                        <div className="capton">Caption goes here.</div>
+                        <div className="act111">
+                            <img src={img18} alt="like" className="like"></img>
+                            <div className="likeNo">101</div>
+                            <div className="date">2/12/2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="line"></div>
+                <div className="act1">
+                    <img src={img17} alt="project" className="img17"></img>
+                    <div className="act11">
+                        <div className="ran">Add your random text here.</div>
+                        <div className="capton">Caption goes here.</div>
+                        <div className="act111">
+                            <img src={img18} alt="like" className="like"></img>
+                            <div className="likeNo">101</div>
+                            <div className="date">2/12/2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
